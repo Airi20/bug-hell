@@ -34,6 +34,11 @@ export default function App() {
       description: "本当の５秒を知ろう。作ってから３秒ルールじゃね？って思ったけど気にしないことにした。",
       url: "https://5seconds-ueqx.vercel.app",
     },
+    {
+      name: "つなげて１２",
+      description: "縦、横、斜めに指をスライドさせて、足して１２になるようにするゲームです。",
+      url: "https://20-lake.vercel.app/",
+    },
   ];
 
   return (
