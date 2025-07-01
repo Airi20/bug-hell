@@ -38,7 +38,11 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 600, margin: "auto", fontFamily: "Arial, sans-serif", padding: 20 }}>
-      <h1>色々サボって作ったアプリ集<br></br>（と、掲示板も作ってみたかったからくっつけてみた）<br></br></h1>
+      <h1>
+  色々サボって作ったアプリ集<br /><br />
+  （と、掲示板も作ってみたかったからくっつけてみた）<br />
+</h1>
+
       <p>
         こんにちは。融合系工学部３年の暇人です。
         暇すぎて（というか本当は進級のための勉強したり、院受けるならその準備したり、
