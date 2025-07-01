@@ -20,23 +20,26 @@ export default function Forum() {
 
   // 投稿送信
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (name.trim() && message.trim()) {
-      const newPost = {
-        name,
-        message,
-        createdAt: serverTimestamp(),
-      };
-      await addDoc(collection(db, "posts"), newPost);
-      setName("");
-      setMessage("");
+  e.preventDefault();
+  if (name.trim() && message.trim()) {
+    const uid = getAuth().currentUser?.uid; // ← ここ追加！
+    const newPost = {
+      name,
+      message,
+      uid, // ← これも追加！
+      createdAt: serverTimestamp(),
+    };
+    await addDoc(collection(db, "posts"), newPost);
+    setName("");
+    setMessage("");
 
-      // 投稿後に再取得（お手軽だけど非効率）
-      const snapshot = await getDocs(query(collection(db, "posts"), orderBy("createdAt", "desc")));
-      const postList = snapshot.docs.map((doc) => doc.data());
-      setPosts(postList);
-    }
-  };
+    // 再取得（効率悪いけど手軽）
+    const snapshot = await getDocs(query(collection(db, "posts"), orderBy("createdAt", "desc")));
+    const postList = snapshot.docs.map((doc) => doc.data());
+    setPosts(postList);
+  }
+};
+
 
   return (
     <div style={{ marginTop: 40 }}>
