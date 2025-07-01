@@ -49,12 +49,7 @@ export default function Forum() {
   return (
     <div style={{ marginTop: 40 }}>
       <h2>掲示板（実験中）：匿名でお願いします。</h2>
-      <p>
-  ‼️この掲示板は匿名で誰でも投稿できますが、他人を傷つける内容や違法行為はご遠慮ください。問題のある投稿は削除対象となる場合があります。<br />
-  匿名ログインを使って投稿しています。個人情報は取得しません。<br /><br />
-  テスト段階です。
-</p>
-
+      
       <form onSubmit={handleSubmit} style={{ marginBottom: 20 }}>
         <input
           type="text"
