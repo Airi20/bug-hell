@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { db } from "./firebase";
 import { collection, addDoc, getDocs, serverTimestamp, query, orderBy } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
 export default function Forum() {
   const [posts, setPosts] = useState([]);
@@ -26,7 +27,7 @@ export default function Forum() {
     const newPost = {
       name,
       message,
-      uid, // ← これも追加！
+      uid,// ← これも追加！
       createdAt: serverTimestamp(),
     };
     await addDoc(collection(db, "posts"), newPost);
