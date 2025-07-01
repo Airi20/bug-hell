@@ -22,6 +22,11 @@ export default function Forum() {
   // 投稿送信
   const handleSubmit = async (e) => {
   e.preventDefault();
+  
+  if (message.length > 200) {
+    alert("200文字以内でお願いします");
+    return;
+  }
   if (name.trim() && message.trim()) {
     const uid = getAuth().currentUser?.uid; // ← ここ追加！
     const newPost = {
@@ -41,7 +46,6 @@ export default function Forum() {
   }
 };
 
-
   return (
     <div style={{ marginTop: 40 }}>
       <h2>掲示板：なんでもどうぞ</h2>
@@ -58,6 +62,7 @@ export default function Forum() {
           placeholder="コメント内容"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+        　maxLength={200}
           style={{ padding: 8, marginRight: 10, width: "50%" }}
         />
         <button type="submit" style={{ padding: "8px 16px" }}>投稿</button>
