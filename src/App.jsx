@@ -6,7 +6,7 @@ export default function App() {
     {
       name: "TrussForce",
       description:
-        "部材力自動計算アプリ。💻\n実験でパソコンで結果出てんのに手計算しろって言われたので作ってみた\n（フロントとバック繋ぐのクソ大変だったし興味なくてもいいから見てって。）",
+        "部材力自動計算アプリ（送信に１分くらいかかるよ）。💻\n実験でパソコンで結果出てんのに手計算しろって言われたので作ってみた。",
       url: "https://trussfront.onrender.com/",
     },
     {
