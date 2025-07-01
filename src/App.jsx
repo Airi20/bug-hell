@@ -29,6 +29,11 @@ export default function App() {
       description: "JavaScript文法を選択式で学べるクイズアプリ。意外とガチ。( ･´ｰ･｀)",
       url: "https://code-crush-black.vercel.app/",
     },
+    {
+      name: "５秒ルール練習用アプリ",
+      description: "本当の５秒を知ろう。",
+      url: "https://5seconds-ueqx.vercel.app",
+    }
   ];
 
   return (
