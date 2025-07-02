@@ -39,6 +39,11 @@ export default function App() {
       description: "縦、横、斜めに指をスライドさせて、足して１２になるようにするゲームです。",
       url: "https://20-lake.vercel.app/",
     },
+    {
+      name: "ジャンプして障害物をよけるゲーム",
+      description: "BGMはスタワンでカバーしました。",
+      url: "https://dinosaur4.vercel.app/",
+    },
   ];
 
   return (
