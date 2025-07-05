@@ -94,3 +94,80 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.sidebar.left {
+  border-right: none;
+}
+
+.sidebar.right {
+  border-left: none;
+}
+
+.main {
+  flex: 1;
+  min-width: 300px;
+}
+
+.app-list {
+  padding-left: 0;
+}
+
+.app-list li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.ad-box {
+  background-color: #eee;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.legal,
+.footer {
+  font-size: 12px;
+  color: #666;
+  margin-top: 40px;
+}
+
+.intro {
+  white-space: pre-wrap;
+}
+
+/* モバイル対応 */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border: none;
+  }
+
+  .ad-box {
+    height: auto;
+  }
+}
+
