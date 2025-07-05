@@ -24,8 +24,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /*display: flex;
+  place-items: center;*/
   min-width: 320px;
   min-height: 100vh;
 }
@@ -99,9 +99,9 @@ button:focus-visible {
   flex-wrap: wrap;
   max-width: 1000px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 20px 16px;
   gap: 20px;
 }
 
