@@ -103,11 +103,12 @@ export default function App() {
       </main>
 
       <aside className="sidebar right">
-        <h3>広告スペース</h3>
+        <h3>制作主からのコメント</h3>
         <div className="ad-box">
           😇 早く寝よう。 <br />
           日々、アプリを作って現実逃避中。<br />
-          いつかこれが誰かの役に立ったらうれしい。
+          いつかこれが誰かの役に立ったらうれしい。<br />
+          
         </div>
         <h3>最近のつぶやき</h3>
         <p>「React頑張ってる！」</p>
