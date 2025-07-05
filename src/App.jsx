@@ -111,8 +111,9 @@ export default function App() {
           
         </div>
         <h3>最近のつぶやき</h3>
-        <p>「React頑張ってる！」</p>
+        <p>「💤😴」</p>
         <p>「ほんとは料理人になりたかった」</p>
+        <p>「何もしない日も必要です」</p>
       </aside>
     </div>
   );
