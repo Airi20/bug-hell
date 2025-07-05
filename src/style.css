@@ -135,7 +135,8 @@ button:focus-visible {
 }
 
 .ad-box {
-  background-color: #eee;
+  background-color: #333; /* ダーク系に */
+  color: #eee; /* 明るい文字色に */
   height: 200px;
   display: flex;
   justify-content: center;
@@ -143,7 +144,9 @@ button:focus-visible {
   font-size: 12px;
   text-align: center;
   padding: 10px;
+  border-radius: 8px;
 }
+
 
 .legal,
 .footer {
