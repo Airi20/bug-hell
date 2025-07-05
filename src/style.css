@@ -102,7 +102,7 @@ button:focus-visible {
   margin: auto;
   font-family: Arial, sans-serif;
   padding: 20px;
-  
+  gap: 20px;
 }
 
 .sidebar {
@@ -110,7 +110,6 @@ button:focus-visible {
   flex-shrink: 0;
   border: 1px solid #ccc;
   padding: 10px;
-  margin-right: 20px;
 }
 
 .sidebar.left {
