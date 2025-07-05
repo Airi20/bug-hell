@@ -94,19 +94,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* 中央ぞろえ */
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   font-family: Arial, sans-serif;
   padding: 20px 16px;
   gap: 20px;
+  box-sizing: border-box;
 }
 
 .sidebar {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   flex-shrink: 0;
   border: 1px solid #ccc;
   padding: 10px;
@@ -124,6 +128,9 @@ button:focus-visible {
 .main {
   flex: 1;
   min-width: 300px;
+  max-width: 700px; /* 追加：中央寄せ調整のため制限 */
+  margin: 0 auto;   /* 中央寄せ */
+  box-sizing: border-box;
 }
 
 .app-list {
