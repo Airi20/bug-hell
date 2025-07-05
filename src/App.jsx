@@ -45,6 +45,11 @@ export default function App() {
       description: "BGMはスタワンでカバーしました。",
       url: "https://dinosaur4.vercel.app/",
     },
+    {
+      name: "HumanOS 起動中...",
+      description: "コンピューターでも、起動遅いときがある。",
+      url: "https://emotional-support-kappa.vercel.app/",
+    },
   ];
 
   return (
@@ -113,6 +118,7 @@ export default function App() {
           😇 早く寝よう。 <br />
           日々、アプリを作って現実逃避中。<br />
           いつかこれが誰かの役に立ったらうれしい。<br />
+        
           
         </div>
         <h3>最近のつぶやき</h3>
