@@ -159,7 +159,8 @@ export default function App() {
             alignItems: "center",
           }}
         >
-          広告募集してます。無料です。
+          😇 早く寝よう。 <br />
+日々、アプリを作って現実逃避中。いつかこれが誰かの役に立ったらうれしい。<br />
         </div>
         <h3>最近のつぶやき</h3>
         <p style={{ fontSize: 12, color: "#666" }}>「ほんとは料理人になりたかった」</p>
