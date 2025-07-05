@@ -71,7 +71,7 @@ export default function App() {
               GitHub
             </a>
           </li>
-          
+
         </ul>
         <h3>おすすめアプリ</h3>
         <ul style={{ listStyle: "none", paddingLeft: 0 }}>
@@ -162,7 +162,7 @@ export default function App() {
           広告募集してます。無料です。
         </div>
         <h3>最近のつぶやき</h3>
-        <p style={{ fontSize: 12, color: "#666" }}>「にゃーん」</p>
+        <p style={{ fontSize: 12, color: "#666" }}>「ほんとは料理人になりたかった」</p>
         <p style={{ fontSize: 12, color: "#666" }}>「最近React頑張ってる！」</p>
         <p style={{ fontSize: 12, color: "#666" }}>「提出期限に追われない人生はどんなに素晴らしいだろうか。」</p>
         <p style={{ fontSize: 12, color: "#666" }}>「ほんとは料理人になりたかった」</p>
