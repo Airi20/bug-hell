@@ -98,6 +98,7 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
+  width: 100%;
   margin: auto;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -161,13 +162,33 @@ button:focus-visible {
     flex-direction: column;
   }
 
+  .sidebar.left {
+    order: 2; /* 左サイドバーを後ろに */
+  }
+
+  .main {
+    order: 1; /* メインを先頭に */
+  }
+
+  .sidebar.right {
+    order: 3; /* 右サイドバーは最後 */
+  }
+
   .sidebar {
     width: 100%;
     border: none;
+    box-shadow: none;
+    padding: 10px 0;
   }
 
   .ad-box {
     height: auto;
   }
+
+  .main {
+    padding: 15px 0;
+    box-shadow: none;
+  }
 }
+
 
