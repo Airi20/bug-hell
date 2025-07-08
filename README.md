@@ -1,4 +1,4 @@
-# My Web App Collections 🚀
+# My Web App Collection 🚀
 
 Webアプリやツールをまとめました。  
 勉強、息抜き、ちょっと変わった遊び、役立つものまで色々あります。  
