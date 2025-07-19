@@ -113,7 +113,7 @@ export default function App() {
 
 
 
-        <h2>作品一覧</h2>
+        <h2 style={{ fontSize: "20px" }}>作品一覧</h2>
         <ul className="app-list">
           {apps.map((app) => (
             <li key={app.name}>
@@ -162,6 +162,12 @@ export default function App() {
         「ほんとは料理人になりたかった」<br />
         「何もしない日も必要です」<br />
         「最近、心がバグってます」<br />
+         消化不良だしカフェイン中毒だし頭痛いし鬱っていうｗ<br />
+         みんなも、無理せずにね。<br />
+         どうやって生きていこうかな。<br />
+         時代の波に乗れない。笑<br />
+         仕方がないから期末の勉強でもするか。
+         <br />
         </p>
       </aside>
     </div>
