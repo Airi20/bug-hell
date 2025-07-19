@@ -84,6 +84,7 @@ export default function App() {
         <ul>
           <li><a href="https://x.com/RBWHhj7GOh79960" target="_blank">Twitter</a></li>
           <li><a href="https://github.com/Airi20" target="_blank">GitHub</a></li>
+          <li><a href="https://note.com/cool_drake1171" target="_blank">note</a></li>
         </ul>
         <h3>おすすめアプリ</h3>
         <ul>
@@ -166,7 +167,7 @@ export default function App() {
          みんなも、無理せずにね。<br />
          どうやって生きていこうかな。<br />
          時代の波に乗れない。笑<br />
-         仕方がないから期末の勉強でもするか。
+         <del>仕方がないから期末の勉強でもするかー。</del>
          <br />
         </p>
       </aside>
