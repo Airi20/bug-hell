@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bug-hell/static/css/main.72638f44.css",
+    "main.js": "/bug-hell/static/js/main.833e09fc.js",
+    "index.html": "/bug-hell/index.html",
+    "main.72638f44.css.map": "/bug-hell/static/css/main.72638f44.css.map",
+    "main.833e09fc.js.map": "/bug-hell/static/js/main.833e09fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72638f44.css",
+    "static/js/main.833e09fc.js"
+  ]
+}
