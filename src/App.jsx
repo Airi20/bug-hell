@@ -75,11 +75,7 @@ export default function App() {
       description: "ブロックを回転させて横一列そろえたら消える。天井着いたらゲームオーバー。",
       url: "https://nightingale-s-streaming-game.vercel.app/",
     },
-    {
-      name:"あなたの個人情報を吸い込むフォーム",
-      description:"～見せかけのバックエンド、保存されぬ個人情報～",
-      url:"https://personal-information-form-front.vercel.app/" ,
-    }
+    
   ];
 
   return (
