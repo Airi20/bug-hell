@@ -75,6 +75,11 @@ export default function App() {
       description: "ブロックを回転させて横一列そろえたら消える。天井着いたらゲームオーバー。",
       url: "https://nightingale-s-streaming-game.vercel.app/",
     },
+    {
+      name:"あなたの個人情報を吸い込むフォーム",
+      description:"見せかけのバックエンド、保存されぬ個人情報ー",
+      url:"https://personal-information-form-front.vercel.app/" ,
+    }
   ];
 
   return (
@@ -125,7 +130,7 @@ export default function App() {
   <p><del>それにしても、人生に希望をもって、あれやりたいとかこれやりたいとか言えてる人って神経どうなってんの？？？🥺<br />
   毎日生活するだけでしんどいし必死なのに。</del></p>
 
-
+  
 
         <h2 style={{ fontSize: "20px" }}>作品一覧</h2>
         <ul className="app-list">
