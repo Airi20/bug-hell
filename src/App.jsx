@@ -86,7 +86,6 @@ export default function App() {
       <aside className="sidebar left">
         <h3>リンク集</h3>
         <ul>
-          <li><a href="https://x.com/RBWHhj7GOh79960" target="_blank">Twitter</a></li>
           <li><a href="https://github.com/Airi20" target="_blank">GitHub</a></li>
           <li><a href="https://note.com/cool_drake1171" target="_blank">note</a></li>
         </ul>
@@ -114,8 +113,6 @@ export default function App() {
     基本「動けばOK」精神で作ってるので、気軽に触ってやってください。<br />
     最近ちょっと心がバグってますが、まぁなんとか生きてます。<br />
     ゆるくダラダラ、時々現実逃避。そんな感じで今後もやっていきます。<br />
-    気に入ってくれたらTwitterやGitHubやnoteもフォローしてくれると励みになります。<br />
-    DMも大歓迎です（即レスは難しいけど、ちゃんと返します...たぶん）。<br />
     <br />
     それでは、テキトーに遊んでいってね。<br />
   </p>
