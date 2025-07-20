@@ -96,6 +96,10 @@ export default function App() {
           <li><a href="https://mine-sweeper2.vercel.app/" target="_blank">マインスイーパー</a></li>
           <li><a href="https://error-love.vercel.app" target="_blank">私、恋愛向いてない。</a></li>
         </ul>
+        <h3>おすすめの話</h3>
+        <ul>
+          <li><a href="https://yesterday-teal.vercel.app/" target="_blank">シンプルにここの空白を埋めたいだけなんだけど😇</a></li>
+        </ul>
       </aside>
 
       <main className="main">
