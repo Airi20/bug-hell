@@ -77,7 +77,7 @@ export default function App() {
     },
     {
       name:"あなたの個人情報を吸い込むフォーム",
-      description:"見せかけのバックエンド、保存されぬ個人情報ー",
+      description:"～見せかけのバックエンド、保存されぬ個人情報～",
       url:"https://personal-information-form-front.vercel.app/" ,
     }
   ];
