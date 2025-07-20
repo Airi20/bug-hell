@@ -1,6 +1,9 @@
 import Forum from "./Forum";
 import React from "react";
 import "./style.css"; // CSSファイル読み込み
+import TodaysFortune from "./components/TodaysFortune";
+import UpComment from "./components/UpComment";
+
 
 export default function App() {
   const apps = [
@@ -110,6 +113,19 @@ export default function App() {
     <br />
     それでは、テキトーに遊んでいってね。<br />
   </p>
+  <br />
+
+
+
+  <>
+    
+    <UpComment />
+    {/* 他のコンテンツ */}
+  </>
+
+
+
+<br />
 
   <p>それにしても、お腹いてえええええ。。。<br />
   😢</p>
@@ -125,6 +141,17 @@ export default function App() {
 
   <p><del>それにしても、人生に希望をもって、あれやりたいとかこれやりたいとか言えてる人って神経どうなってんの？？？🥺<br />
   毎日生活するだけでしんどいし必死なのに。</del></p>
+
+
+
+
+
+
+
+
+
+
+
 
   
 

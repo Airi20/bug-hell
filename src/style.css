@@ -200,6 +200,22 @@ button:focus-visible {
     padding: 15px 0;
     box-shadow: none;
   }
+  .fortune-card {
+  background-color: #fff5cc;
+  border: 2px dashed #f9c74f;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Arial", sans-serif;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.fortune-message {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
 }
 
 
