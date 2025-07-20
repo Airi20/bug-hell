@@ -99,7 +99,9 @@ export default function App() {
         <h3>おすすめの話</h3>
         <ul>
           <li><a href="https://yesterday-teal.vercel.app/" target="_blank">シンプルにここの空白を埋めたいだけなんだけど😇</a></li>
+          <li><a href="https://pro3-ten.vercel.app/" target="_blank">雑談🍵</a></li>
         </ul>
+
       </aside>
 
       <main className="main">
