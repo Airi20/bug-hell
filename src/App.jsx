@@ -8,9 +8,9 @@ import UpComment from "./components/UpComment";
 export default function App() {
   const apps = [
     {
-  name: "ASC Fluorescence Analyzer",
+  name: "ASC Fluorescence Analyzer～ThT蛍光測定を嫌いにならないために～",
   description:
-    "ASC蛍光スペクトル解析アプリ。💻\n複数のASCファイルを読み込んで蛍光スペクトルを重ねて表示・積分値を自動計算できる。ブランク補正にも対応！実験データの解析を楽にしたくて作ってみた。",
+    "ASC蛍光スペクトル解析アプリ。💻UIがゴミでごめんね！＋Select ASC Files0 files loadedを押すとファイルを選択できるよ！ちなみにこれまだ正確に動くかテストできてないからあんまり信用しないでね！\n複数のASCファイルを読み込んで蛍光スペクトルを重ねて表示・積分値を自動計算できる。ブランク補正にも対応！実験データの解析を楽にしたくて作ってみた。",
   url: "https://my-app-phi-one-23.vercel.app/",
 },
     {
