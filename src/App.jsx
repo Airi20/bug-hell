@@ -8,6 +8,12 @@ import UpComment from "./components/UpComment";
 export default function App() {
   const apps = [
     {
+  name: "ASC Fluorescence Analyzer",
+  description:
+    "ASC蛍光スペクトル解析アプリ。💻\n複数のASCファイルを読み込んで蛍光スペクトルを重ねて表示・積分値を自動計算できる。ブランク補正にも対応！実験データの解析を楽にしたくて作ってみた。",
+  url: "https://my-app-phi-one-23.vercel.app/",
+},
+    {
       name: "TrussForce",
       description:
         "部材力自動計算アプリ（送信に１分くらいかかるよ）。💻\n実験でパソコンで結果出てんのに手計算しろって言われたので作ってみた。",
