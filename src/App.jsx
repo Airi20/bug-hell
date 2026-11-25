@@ -53,21 +53,13 @@ export default function App() {
       description: "コンピューターでも、起動遅いときがある。",
       url: "https://emotional-support-kappa.vercel.app/",
     },
-    {
-      name: "npm恋愛バグ",
-      description: "「貴方解剖純愛歌死ね」のLINE MVから着想を得て、恋愛こじらせまくった人の心情をコマンドプロンプト風に表現してみた。",
-      url: "https://error-love.vercel.app/",
-    },
+    
     {
       name: "弾をよけるゲーム",       
       description: "クリア時間競えるよ。<>で移動、スペースで攻撃。パソコンじゃないとできない。",
       url: "https://git-main-airi20s-projects.vercel.app/",
     },
-    {
-      name: "数独",     
-      description: "うｐ主の愚痴コメント付き。",
-      url: "https://sudoku-one-smoky.vercel.app/",
-    },
+    
     {
       name: "オセロ",
       description: "黄色いところをクリックするだけっていう。",
@@ -84,36 +76,14 @@ export default function App() {
   return (
     <div className="container">
       <aside className="sidebar left">
-        <h3>リンク集</h3>
-        <ul>
-          <li><a href="https://github.com/Airi20" target="_blank">GitHub</a></li>
-          <li><a href="https://note.com/cool_drake1171" target="_blank">note</a></li>
-          <li><a href="https://www.youtube.com/@Airi20-j8e" target="_blank">YouTube</a></li>
-        </ul>
-        <h3>おすすめアプリ</h3>
-        <ul>
-          <li><a href="https://trussfront.onrender.com/" target="_blank">TrussForce</a></li>
-          <li><a href="https://mine-sweeper2.vercel.app/" target="_blank">マインスイーパー</a></li>
-          <li><a href="https://error-love.vercel.app" target="_blank">私、恋愛向いてない。</a></li>
-        </ul>
-        <h3>おすすめの話</h3>
-        <ul>
-          <li><a href="https://yesterday-teal.vercel.app/" target="_blank">シンプルにここの空白を埋めたいだけなんだけど😇</a></li>
-          <li><a href="https://pro3-ten.vercel.app/" target="_blank">雑談🍵</a></li>
-        </ul>
+        
 
       </aside>
 
       <main className="main">
   <h1 style={{ fontSize: "20px" }}>動けば正義のアプリ集</h1>
   <p className="intro">
-    こんにちは。こんな辺鄙なサイトを見つけてくれてどうもありがとう。<br/>
-    最近元気です。YouTube始めました。良かったら見てやってください。ボカロとか東方とかいろんな好きな曲をピアノでカバーしています。<br />
-    チャンネル登録１０人超えました。ありがとう。<br />
-    ところでこのサイトでは自作のアプリを紹介しています。自分でも何個作ったのか分からないので、思い出せる範囲でかき集めました。<br />
-    有名どころ（？）から、「誰得？」なやつまで雑多に置いてます。<br />
-    基本「動けばOK」精神で作ってるので、気軽に触ってやってください。<br />
-    ゆるくダラダラ、時々現実逃避。そんな感じで今後もやっていきます。<br />
+    こんにちは。<br />
     <br />
     それでは、テキトーに遊んでいってね。<br />
   </p>
@@ -131,13 +101,6 @@ export default function App() {
 
 <br />
 
-  <p>
-  
-  バイク免許取るか、Macを買うかの２択で悩んでいます。<br />去年お金を使いすぎて貯金があんまりなくてどっちかです。<br />
-  Mac買えばAppStoreにアプリが出せる。バイク免許取れば気軽に旅行に行ける。<br/>
-  やっと夏休みだ！！！ボカロ作りたいなー。YouTubeもっと更新したいし、ピアノ上手くなりたいし、GitHubも最近放置気味だからちょいちょい更新していきたいな。
-  </p>
-  
 
   
 
@@ -194,30 +157,17 @@ export default function App() {
         <h3>制作主からのコメント</h3>
         <div className="ad-box">
           😇 早く寝よう。 <br />
-          日々、アプリを作って現実逃避中。<br />
-          いつかこれが誰かの役に立ったらうれしい。<br />
+          <br />
 
         
           
         </div>
         <h3>最近のつぶやき</h3>
         <p>💤😴<br />
-        ほんとは料理人になりたかった！かもしれない。<br />
-        何もしない日も必要です。<br />
-        日高屋の冷麺美味い😋<br />
+        <br />
         
-        まああんまり悩まないで気楽に生きていこうよ。<br />
-        今日何食べようかな～とかさ。<br />
-        <br />
-        <del>仕方がないから期末の勉強でもするかー。</del>
-        <br />
-        <br />
-        多動なんだよな。<br />
-        最近スペースキーの調子がおかしい。😆<br />
-        ビビるぐらい家のWi-Fi不安定<br />
-        Macほちぃ。<br />
-        Macかバイクの免許かどっちにしよう<br />
-        ひっさしぶりにボカロいじりたいな。<br />
+        
+       
         </p>
       </aside>
     </div>
