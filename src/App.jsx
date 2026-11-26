@@ -93,6 +93,11 @@ export default function App() {
     <br />
     それでは、テキトーに遊んでいってね。<br />
   </p>
+
+  <p className="setting-note">
+    ※ 掲示板の投稿が表示されない場合は、ページを再読み込みしてください。
+  </p>
+
   <br />
 
 
