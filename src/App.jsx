@@ -8,6 +8,12 @@ import UpComment from "./components/UpComment";
 export default function App() {
   const apps = [
     {
+  name: "Paper Translator",
+  description:
+    "論文PDF翻訳アプリ。📚 英語の学術論文をアップロードすると、日本語に翻訳したPDFをダウンロードできる。DeepL APIを利用し、原文のPDFレイアウトをできるだけ維持したまま翻訳できる。論文を読むときの言語の壁を減らし、研究活動を少しでも効率化したくて作ってみた。",
+  url: "https://paper-frontend-ten.vercel.app/",
+},
+    {
   name: "ASC Fluorescence Analyzer～ThT蛍光測定を嫌いにならないために～",
   description:
     "ASC蛍光スペクトル解析アプリ。💻UIがゴミでごめんね！＋Select ASC Files0 files loadedを押すとファイルを選択できるよ！ちなみにこれまだ正確に動くかテストできてないからあんまり信用しないでね！\n複数のASCファイルを読み込んで蛍光スペクトルを重ねて表示・積分値を自動計算できる。ブランク補正にも対応！実験データの解析を楽にしたくて作ってみた。",
