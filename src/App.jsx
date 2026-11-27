@@ -8,7 +8,7 @@ import UpComment from "./components/UpComment";
 export default function App() {
   const apps = [
     {
-  name: "Paper Translator",
+  name: "Paper Translator（無料版DeepLの字数制限で突然使えなくなることがあります。）",
   description:
     "論文PDF翻訳アプリ。📚 英語の学術論文をアップロードすると、日本語に翻訳したPDFをダウンロードできる。無料版だからやりすぎると使えなくなるからあんまり使わないでほしい。あと、いろんな権限に引っかかりそうなので気をつけてほしい。DeepL APIを利用し、原文のPDFレイアウトをできるだけ維持したまま翻訳できる。論文を読むときの言語の壁を減らし、研究活動を少しでも効率化したくて作ってみた。",
   url: "https://paper-frontend-ten.vercel.app/",
